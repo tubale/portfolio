@@ -1,11 +1,11 @@
 .navbar { 
   overflow :hidden;
-  background-color: #0DE9CC;
+  background-color: #F0FF00;
 }
 
 .navbar a {
   float: left;
-  color: #44C33D;
+  color: #136A21;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
