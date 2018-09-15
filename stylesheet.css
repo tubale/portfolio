@@ -1,3 +1,7 @@
+header {
+  margin 0;
+  font-family: "Times New Roman", serif;
+}
 .navbar { 
   overflow :hidden;
   background-color: yellow;
