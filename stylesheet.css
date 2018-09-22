@@ -23,3 +23,9 @@ h1 {
 h3 {
   color:#d10000;
 }
+.column {
+  width:50%;
+  float: right;
+  padding: 20px;
+  height:500px;
+}
