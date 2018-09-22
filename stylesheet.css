@@ -27,5 +27,11 @@ h3 {
   width:50%;
   float: right;
   padding: 20px;
-  height:500px;
+  height: 200px;
+}
+.colunm1 {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  height: 200px;
 }
