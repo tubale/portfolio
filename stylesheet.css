@@ -27,4 +27,5 @@ h3 {
   float: left;
   padding: 20px;
   height: 200px;
+  box-sizing: border-box;
 }
