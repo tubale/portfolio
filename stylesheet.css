@@ -1,9 +1,8 @@
 header {
-  margin 0;
   font-family: "Times New Roman", serif;
 }
 .navbar { 
-  overflow :hidden;
+  overflow: hidden;
   background-color: yellow;
 }
 
@@ -24,7 +23,7 @@ h3 {
   color:#d10000;
 }
 .column {
-  width:50%;
+  width: 50%;
   float: left;
   padding: 20px;
   height: 200px;
