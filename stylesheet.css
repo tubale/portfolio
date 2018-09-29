@@ -16,9 +16,30 @@ header {
 }
 
 h1 {
-  color:#1d3cc9;
   border-bottom: 5px dotted red;
+  -webkit-animation:colorchange 10s infinite alternate;
 }
+
+@-webkit-keyframes colorchange{
+  0% {
+    color: FFD400;
+  }
+  20% {
+    color: 00FF63;
+  }
+   40% {
+     color: blue;
+  }
+  60% {
+    color: 0040FF;
+  }
+  80% {
+    color: purple;
+  }
+  100% {
+    color: green:
+  }
+      
 h3 {
   color:#d10000;
 }
