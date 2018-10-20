@@ -55,3 +55,19 @@ h3 {
   background-size: cover;
   background-position: center;
 }
+  
+  #slideshow {
+    width:1200px;
+    height:800px;
+    postion: middle;
+    marging: 50px auto;
+  }
+  
+  #slideshow > div {
+    postion: absolute;
+    top 10px; 
+    left 10px;
+    right10px;
+    bottom 10px;
+  }
+    
