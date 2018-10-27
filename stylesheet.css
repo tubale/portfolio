@@ -43,13 +43,16 @@ h1 {
 h3 {
   color:#d10000;
 }
-.column {
+.column{
   width: 50%;
   float: left;
   padding: 20px;
   height: 220px;
   box-sizing: border-box;
 }
+ .bob{
+   float: left;
+  }
 .lynbrook {
   background-image: url("https://github.com/tubale/portfolio/blob/gh-pages/lynbrook%20high%20school.jpg?raw=true");
   background-size: cover;
