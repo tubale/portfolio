@@ -17,7 +17,7 @@ header {
 
 h1 {
   border-bottom: 5px dotted red;
-  -webkit-animation:colorchange 10s infinite alternate;
+  -webkit-animation:colorchange 5s infinite alternate;
 }
 
 @-webkit-keyframes colorchange{
@@ -43,14 +43,14 @@ h1 {
 h3 {
   color:#d10000;
 }
-.column{
+.column {
   width: 50%;
   float: left;
   padding: 20px;
   height: 220px;
   box-sizing: border-box;
 }
- .bob{
+ .bob {
    float: left;
   }
 .lynbrook {
@@ -73,4 +73,28 @@ h3 {
     right10px;
     bottom 10px;
   }
-    
+  
+  h3 {
+      -webkit-animation:colorchange 5s infinite alternate;
+}
+
+@-webkit-keyframes colorchange{
+  0% {
+    color: FFD400;
+  }
+  20% {
+    color: 00FF63;
+  }
+   40% {
+     color: blue;
+  }
+  60% {
+    color: 0040FF;
+  }
+  80% {
+    color: purple;
+  }
+  100% {
+    color: green:
+  }
+      
