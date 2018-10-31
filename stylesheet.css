@@ -64,12 +64,11 @@ h1 {
   background-size: cover;
   background-position: center;
 }
- #slideshow img{
+img{
   position: absolute;
   transition: opacity .5s ease-in;
 }
-
- #slideshow img + img { opacity: 0; }
+img + img { opacity: 0; }
 
 
   
