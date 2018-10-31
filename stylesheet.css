@@ -49,6 +49,7 @@ h3 {
   padding: 20px;
   height: 220px;
   box-sizing: border-box;
+  background-color:#00D7FF;
   }
   .column2 {
   width: 50%;
@@ -56,6 +57,7 @@ h3 {
   padding: 20px;
   height: 220px;
   box-sizing: border-box;
+  background-color:#2CFF00;
 }
  .bob {
    float: left;
