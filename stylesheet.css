@@ -43,9 +43,16 @@ h1 {
 h3 {
   color:#d10000;
 }
-.column {
+.column1 {
   width: 50%;
   float: left;
+  padding: 20px;
+  height: 220px;
+  box-sizing: border-box;
+  }
+  .column2 {
+  width: 50%;
+  float: right;
   padding: 20px;
   height: 220px;
   box-sizing: border-box;
