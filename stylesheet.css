@@ -39,10 +39,8 @@ h1 {
   100% {
     color: green:
   }
-      
-h3 {
-  color:#d10000;
 }
+      
 .column1 {
   width: 50%;
   float: left;
@@ -50,8 +48,9 @@ h3 {
   height: 220px;
   box-sizing: border-box;
   background-color:#00D7FF;
-  }
-  .column2 {
+ }
+
+.column2 {
   width: 50%;
   float: right;
   padding: 20px;
@@ -59,9 +58,7 @@ h3 {
   box-sizing: border-box;
   background-color:#2CFF00;
 }
- .bob {
-   float: left;
-  }
+
 .lynbrook {
   background-image: url("https://github.com/tubale/portfolio/blob/gh-pages/lynbrook%20high%20school.jpg?raw=true");
   background-size: cover;
@@ -81,7 +78,7 @@ h3 {
   bottom: 10px;
 }
   
-  h3 {
+ h3 {
       -webkit-animation:colorchange 5s infinite alternate;
 }
 
@@ -104,4 +101,4 @@ h3 {
   100% {
     color: green:
   }
-      
+}
