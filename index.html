@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanay Ubale's Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Tanay Ubale<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">Available for work</span>
+            <h1>Hi, I'm <br> <span class="gradient-text">Tanay Ubale</span></h1>
+            <p class="hero-text">I’m an electrical engineering student interested in embedded systems, hardware design,
+                and building reliable real-world systems.
+            </p>
+            <div class="hero-btns">
+                <a href="#experience" class="btn-outline">Experience</a>
+                <a href="#work" class="btn-primary">Projects</a>
+                <a href="about.html" class="btn-outline">More About Me</a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+            <div class="glow glow-3"></div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+                <p>My professional journey so far.</p>
+            </div>
+
+            <div class="experience-list">
+                <!-- Job 1 -->
+                <div class="experience-item">
+                    <div class="exp-content">
+                        <h3>Lead Tools Board Developer</h3>
+                        <span class="company">Purdue IEEE – ROV</span>
+                        <p>Designing and assembling an STM32-based tools board capable of driving six servos with up to
+                            4A peak load over a shared backplane, drawing schematics, selecting parts, hand-soldering
+                            components, routing power and signal traces, and bringing up reliable SPI communication with
+                            a Raspberry Pi.<br><br>
+                            Implementing the power circuitry to convert 12V to 6V with a high-current buck converter for
+                            six servos and 5V to 3.3V with an LDO for logic, ensuring stable operation under load
+                            through optimized PCB layout, decoupling, and systematic debugging.</p>
+                    </div>
+                    <span class="exp-date">Aug 2025 – Present<br><span style="font-size: 0.8em; opacity: 0.7;">West
+                            Lafayette, IN</span></span>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="experience-item">
+                    <div class="exp-content">
+                        <h3>Intern</h3>
+                        <span class="company">Science Internship Program (SIP)</span>
+                        <p>Researched and designed Near Field Communication (NFC) antennas with UCSC PhD researcher
+                            Gamze Onuker, focusing on layout optimization and performance for biomedical
+                            applications.<br><br>
+                            Developed a multi-coefficient regression model, writing 800+ lines of code and analyzing
+                            biomedical sensor outputs to improve the accuracy and reliability of a non-invasive glucose
+                            monitor by 27%.</p>
+                    </div>
+                    <span class="exp-date">May 2024 – Aug 2024<br><span style="font-size: 0.8em; opacity: 0.7;">Santa
+                            Cruz, CA</span></span>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="experience-item">
+                    <div class="exp-content">
+                        <h3>Desk Supervisor, Lifeguard</h3>
+                        <span class="company">Rancho Rinconada Pool</span>
+                        <p>Managed daily pool operations as the sole lifeguard-certified supervisor on deck, overseeing
+                            swim lessons, coordinating staff schedules, and ensuring all safety protocols were
+                            consistently followed.<br><br>
+                            Served as the primary contact between parents, swimmers, and staff, addressing questions,
+                            resolving concerns, and maintaining a professional environment.</p>
+                    </div>
+                    <span class="exp-date">Mar 2022 – Aug 2025<br><span style="font-size: 0.8em; opacity: 0.7;">San
+                            Jose, CA</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Selected Projects</h2>
+                <p>A collection of my favorite projects.</p>
+            </div>
+
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="card-content">
+                        <h3>Smart Greenhouse</h3>
+                        <p>Engineered an Arduino-based greenhouse controller integrating temperature/humidity, soil
+                            moisture, and light sensors to continuously monitor and log environmental conditions,
+                            maintaining stable growth ranges.</p>
+                        <div class="tags">
+                            <span>Arduino</span>
+                            <span>C/C++</span>
+                            <span>Automation</span>
+                            <span>Sensors</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="card-content">
+                        <h3>8-bit CPU</h3>
+                        <p>Built a fully functional 8-bit CPU using the Ben Eater kit, gaining hands-on experience
+                            assembling and debugging breadboard circuits while implementing core components such as
+                            registers, ALU, and control logic.</p>
+                        <div class="tags">
+                            <span>Digital Logic</span>
+                            <span>Computer Arch</span>
+                            <span>Hardware</span>
+                            <span>Debugging</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="card-content">
+                        <h3>AI Interview Coach</h3>
+                        <p>Developed a full-stack web application using React, Node.js, and the OpenAI API to simulate
+                            realistic technical and behavioral interviews, analyze candidate responses, and deliver
+                            personalized, real-time feedback.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>OpenAI API</span>
+                            <span>Full Stack</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-content">
+            <h2>Let's Connect</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            </p>
+            <div class="contact-btns">
+                <a href="mailto:tanay@example.com" class="btn-primary">Email Me</a>
+                <a href="https://linkedin.com/in/tanay" class="btn-outline">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
